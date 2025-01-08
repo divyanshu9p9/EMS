@@ -118,8 +118,6 @@ The Employee Management System (EMS) is a full-stack web application designed to
 ![image](https://github.com/user-attachments/assets/4aee63f6-b470-4388-95f4-cb9eca900121)
 ![image](https://github.com/user-attachments/assets/f2e4fa5f-af27-4668-8165-65490620402a)
 ![image](https://github.com/user-attachments/assets/a70e4671-fc5c-4ea3-8a5a-cf3153bccaf6)
-![image](https://github.com/user-attachments/assets/a345d3d2-132b-42e1-8008-9866e32dcddc)
-![image](https://github.com/user-attachments/assets/c81c64d1-a99a-4237-9423-8559062dbd9a)
 ![image](https://github.com/user-attachments/assets/fbff4bc5-e00e-4619-914b-644367d719f5)
 ![image](https://github.com/user-attachments/assets/7e4b96ce-0ea6-414e-81d9-24b3ca71777c)
 ![image](https://github.com/user-attachments/assets/ac8b16d4-ad07-46e5-b546-3db5dd16a228)
