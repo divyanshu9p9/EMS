@@ -60,7 +60,7 @@ The Employee Management System (EMS) is a full-stack web application designed to
    │ │ │ │ └── EmsBackendApplication.java # Main application file
    │ │ ├── resources/
    │ │ │ ├── application.properties # Backend configuration
-   │ │ │ ├── static/ # For Static files
+   │ │ │ └── static/ # For Static files
    │ └── pom.xml # Maven configuration file
    ├── ems-frontend/ # Frontend folder
    | ├── src/
@@ -76,8 +76,8 @@ The Employee Management System (EMS) is a full-stack web application designed to
    | ├── vite.config.js # Vite configuration file
    | ├── package.json # npm configuration
    | ├── package-lock.json # Lock file for npm dependencies
-   | ├── .gitignore # Git ignore file
-   ├── README.md # Root documentation
+   | └── .gitignore # Git ignore file
+   └── README.md # Root documentation
    ```
 
 
