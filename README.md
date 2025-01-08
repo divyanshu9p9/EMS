@@ -44,40 +44,42 @@ The Employee Management System (EMS) is a full-stack web application designed to
 ---
 
 ## Folder Structure
-EMS/
-├── ems-backend/ # Backend folder
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/net/div/ems/
-│ │ │ │ ├── controller/ # REST API controllers
-│ │ │ │ ├── dto/ # Data Transfer Objects
-│ │ │ │ ├── entity/ # Database entities
-│ │ │ │ ├── exception/ # Custom exceptions
-│ │ │ │ ├── mapper/ # Entity-DTO mappers
-│ │ │ │ ├── repository/ # Repository interfaces for database access
-│ │ │ │ ├── service/ # Business logic services
-│ │ │ │ └── EmsBackendApplication.java # Main application file
-│ │ ├── resources/
-│ │ │ ├── application.properties # Backend configuration
-│ │ │ ├── static/ # For Static files
-│ ├── pom.xml # Maven configuration file
-|
-│ ├── ems-frontend/ # Frontend folder
-│ | ├── src/
-│ | │ ├── components/ # React components
-│ | │ │ ├── helperComponents/ # Reusable helper components
-│ | │ │ └── mainComponents/ # Main feature components
-│ | │ ├── services/ # API service calls
-│ | │ ├── utils/ # Utility functions
-│ | │ ├── App.jsx # Root component
-│ | │ ├── App.css # Global styles
-│ | │ └── main.jsx # Main entry point
-│ | ├── public/ # Static files for frontend
-│ | ├── vite.config.js # Vite configuration file
-│ | ├── package.json # npm configuration
-│ | ├── package-lock.json # Lock file for npm dependencies
-│ | ├── .gitignore # Git ignore file
-| ├── README.md # Root documentation
+   ```bash
+   EMS/
+   ├── ems-backend/ # Backend folder
+   │ ├── src/
+   │ │ ├── main/
+   │ │ │ ├── java/net/div/ems/
+   │ │ │ │ ├── controller/ # REST API controllers
+   │ │ │ │ ├── dto/ # Data Transfer Objects
+   │ │ │ │ ├── entity/ # Database entities
+   │ │ │ │ ├── exception/ # Custom exceptions
+   │ │ │ │ ├── mapper/ # Entity-DTO mappers
+   │ │ │ │ ├── repository/ # Repository interfaces for database access
+   │ │ │ │ ├── service/ # Business logic services
+   │ │ │ │ └── EmsBackendApplication.java # Main application file
+   │ │ ├── resources/
+   │ │ │ ├── application.properties # Backend configuration
+   │ │ │ ├── static/ # For Static files
+   │ ├── pom.xml # Maven configuration file
+   |
+   │ ├── ems-frontend/ # Frontend folder
+   │ | ├── src/
+   │ | │ ├── components/ # React components
+   │ | │ │ ├── helperComponents/ # Reusable helper components
+   │ | │ │ └── mainComponents/ # Main feature components
+   │ | │ ├── services/ # API service calls
+   │ | │ ├── utils/ # Utility functions
+   │ | │ ├── App.jsx # Root component
+   │ | │ ├── App.css # Global styles
+   │ | │ └── main.jsx # Main entry point
+   │ | ├── public/ # Static files for frontend
+   │ | ├── vite.config.js # Vite configuration file
+   │ | ├── package.json # npm configuration
+   │ | ├── package-lock.json # Lock file for npm dependencies
+   │ | ├── .gitignore # Git ignore file
+   | ├── README.md # Root documentation
+   ```
 
 
 ---
