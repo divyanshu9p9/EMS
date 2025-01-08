@@ -61,24 +61,23 @@ The Employee Management System (EMS) is a full-stack web application designed to
    │ │ ├── resources/
    │ │ │ ├── application.properties # Backend configuration
    │ │ │ ├── static/ # For Static files
-   │ ├── pom.xml # Maven configuration file
-   |
-   │ ├── ems-frontend/ # Frontend folder
-   │ | ├── src/
-   │ | │ ├── components/ # React components
-   │ | │ │ ├── helperComponents/ # Reusable helper components
-   │ | │ │ └── mainComponents/ # Main feature components
-   │ | │ ├── services/ # API service calls
-   │ | │ ├── utils/ # Utility functions
-   │ | │ ├── App.jsx # Root component
-   │ | │ ├── App.css # Global styles
-   │ | │ └── main.jsx # Main entry point
-   │ | ├── public/ # Static files for frontend
-   │ | ├── vite.config.js # Vite configuration file
-   │ | ├── package.json # npm configuration
-   │ | ├── package-lock.json # Lock file for npm dependencies
-   │ | ├── .gitignore # Git ignore file
-   | ├── README.md # Root documentation
+   │ └── pom.xml # Maven configuration file
+   ├── ems-frontend/ # Frontend folder
+   | ├── src/
+   | │ ├── components/ # React components
+   | │ │ ├── helperComponents/ # Reusable helper components
+   | │ │ └── mainComponents/ # Main feature components
+   | │ ├── services/ # API service calls
+   | │ ├── utils/ # Utility functions
+   | │ ├── App.jsx # Root component
+   | │ ├── App.css # Global styles
+   | │ └── main.jsx # Main entry point
+   | ├── public/ # Static files for frontend
+   | ├── vite.config.js # Vite configuration file
+   | ├── package.json # npm configuration
+   | ├── package-lock.json # Lock file for npm dependencies
+   | ├── .gitignore # Git ignore file
+   ├── README.md # Root documentation
    ```
 
 
