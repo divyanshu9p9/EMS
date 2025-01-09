@@ -16,7 +16,7 @@ const Footer = () => {
       }}
     >
       <Typography variant="body2" sx={{ fontSize: "14px" }}>
-        © {new Date().getFullYear()} Capgemini. All Rights Reserved.
+        © {new Date().getFullYear()} Divyanshu. All Rights Reserved.
       </Typography>
     </Box>
   );
