@@ -112,7 +112,7 @@ const ListEmployeeHeader = ({onSearchChange}) => {
         <Box
             sx={{
                 position: "absolute",
-                bottom: {xs:"-41px", sm:"-44px", md:"-47px"}, // Adjust positioning to overlap with the panel slightly
+                bottom: {xs:"-40.5px", sm:"-44px", md:"-47px"}, // Adjust positioning to overlap with the panel slightly
                 left: "50%",
                 transform: "translateX(-50%)",
                 backgroundColor:"rgb(0, 16, 65)", // Deep dark blue-black color
@@ -124,6 +124,8 @@ const ListEmployeeHeader = ({onSearchChange}) => {
                 borderRadius: "0 0 5px 5px", // Rounded corners
                 boxShadow:  "0 9px 10px rgb(0, 0, 0)", // Shadow like the panel
                 textAlign: "center",
+                whiteSpace: "nowrap", // Prevents wrapping to the next line
+                width: "fit-content", // Ensures the box fits the text content
             }}
             >
             Employees List

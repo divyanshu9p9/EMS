@@ -14,7 +14,7 @@ export const FormHeader = ({ employeeId }) => {
             <NavBar />
             <Box sx={{
                 position: "absolute",
-                bottom: {xs: "-43px", sm: "-48px", md: "-48px"},
+                bottom: {xs: "-45px", sm: "-48px", md: "-48px"},
                 left: "50%",
                 transform: "translateX(-50%)",
                 backgroundColor: "rgb(0, 16, 65)",
@@ -23,9 +23,11 @@ export const FormHeader = ({ employeeId }) => {
                 borderRadius: "0 0 8px 8px",
                 boxShadow: "0 8px 10px rgb(0, 0, 0)",
                 zIndex: 1,
+                whiteSpace: "nowrap", // Prevents wrapping to the next line
+                width: "fit-content", // Ensures the box fits the text content
             }}>
                 <Typography variant="h6" sx={{ 
-                    fontSize: {xs: "0.9rem", sm: "1.1rem", md: "1.1rem"}, 
+                    fontSize: {xs: "0.95rem", sm: "1.1rem", md: "1.1rem"}, 
                     fontWeight: "bold"
                 }}>
                     {employeeId ? "Update Employee" : "Add Employee"}
